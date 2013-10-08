@@ -1,0 +1,11 @@
+/*.sln
+/flickr-carousel/bin
+
+/flickr-carousel/obj
+/flickr-carousel/Properties
+
+/flickr-carousel/*.config
+/flickr-carousel/*.csproj
+/flickr-carousel/*.user
+/flickr-carousel/*.config
+/flickr-carousel/*.config

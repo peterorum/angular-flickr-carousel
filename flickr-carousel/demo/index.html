@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flickr Carousel</title>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <div flickr-carousel src="photos_public.gne?id=92505062@N04" interval="8000"></div>
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
+
+    <script type="text/javascript" src="../src/flickr-carousel.js"></script>
+
+
+    <script type="text/javascript">
+        var app = angular.module("demoApp", ["ui.bootstrap.carousel", "flickr.carousel"]);
+
+        angular.bootstrap(document, [app.name]);
+    </script>
+
+</body>
+</html>
+
